@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'compass', '~> 1.0', '>= 1.0.3'
 gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'font-awesome-rails', '~> 4.5'
 
 
 
