@@ -6,9 +6,18 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   </head>
-<body class="container">
+<body>
+<nav class="navbar navbar-fixed navbar-inverse">
+	<h1 class="navbar-brand">The FreeDOME Express</h1>
+</nav>
+  <div class="container">
 
+	  <%= yield %>
+		  
+	  <footer>
+	  	<p> <i class="fa fa-phone"></i> 3iRustyp0e </p>
+	  </footer>
+  </div>
 
-  <%= yield %>
 </body>
 </html>
