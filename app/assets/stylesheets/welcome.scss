@@ -1,4 +1,5 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-ul>h3 {font-weight:bold;}
+$quoteTitle: rgb(71, 66, 0);
+p.quote-title {color:$quoteTitle;}
