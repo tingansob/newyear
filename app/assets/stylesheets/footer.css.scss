@@ -1,10 +1,15 @@
 footer {
 	padding: 5px;
+	display:inline-block;
 	}
-
+// OPEN: create inline:block footer links to appropriate links
 footer>p {
 	font-family:"Open Sans Condensed";
 	font-style:italic;
 	font-weight:bold;
+	color: $darkgold;
+}
+footer>p:hover {
+	color:lighten($darkgold, 15%);
 }
 // PIPELINE: Content & Design decisions -- What does the footer really look like and what data does it contain?
