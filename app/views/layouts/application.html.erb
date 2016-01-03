@@ -3,19 +3,18 @@
 <head>
   <title>The FreeDOME Express</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
   </head>
 <body>
-<nav class="navbar navbar-fixed navbar-inverse">
-	<h1 class="navbar-brand">The FreeDOME Express</h1>
-</nav>
   <div class="container">
-
+    <h1><a href="#" class="home-button"><i class="fa fa-home fa-2x"></i></a>  Welcome Home</h1>
+  	<p>The FreeDOME Express | The Peoples Press</p>
 	  <%= yield %>
-		  
+
 	  <footer>
 	  	<p> <i class="fa fa-phone"></i> 3iRustyp0e </p>
 	  </footer>

@@ -1,5 +1,8 @@
+$darkgold: rgb(133, 75, 17);
+$paper: rgba(212, 159, 0, 0.8);
+
 body {
-  background-color: white;
+  background-color: $paper;
   font-family: 'Open Sans';
 }
 
@@ -7,20 +10,23 @@ h1 h2 h3 h4 h5 h6 {
   font-family: 'Montserrat';
 }
 
-h1 {
-	font-weight:bold;
+@media screen and (max-width: 400px) {
+  body {
+    background-color: goldenrod;
+  }
+
+  h1 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2em;
+    color: $darkgold;
+  }
+
+  footer >p {
+    color: $darkgold;
+  }
 }
 
-@media screen and (max-width: 400px) {
-	body {
-		background-color: goldenrod;
-	}
-	h1 {
-		font-family:'Montserrat';
-		font-weight:bold;
-		font-size:2em;
-		}
-	footer >p{
-		color:black;
-	}
+.home-button {
+  color: $darkgold;
 }
