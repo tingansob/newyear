@@ -10,6 +10,6 @@ footer>p {
 	color: $darkgold;
 }
 footer>p:hover {
-	color:lighten($darkgold, 15%);
+	color: $highlight; 
 }
 // PIPELINE: Content & Design decisions -- What does the footer really look like and what data does it contain?

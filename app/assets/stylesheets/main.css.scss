@@ -1,5 +1,11 @@
 $darkgold: rgb(133, 75, 17);
-$paper: rgb(207, 201, 160);
+$paper: #F7F6A8;
+$darkbase: #2E3532;
+$yellowish: #F0CF65;
+$papershadow: #F3ED86;
+$baseshadow: #BEAD85;
+$highlight: #e56500;
+
 
 body {
   background-color: $paper;
@@ -30,7 +36,12 @@ h1 h2 h3 h4 h5 h6 {
 .home-button {
   color: $darkgold;
 }
+
 .home-button:hover {
   color: lighten($darkgold, 15%);
 }
-// PIPELINE: Include a proper color theme pallete here.  See coolors site.
+
+navbar {
+  color: red;
+}
+//PIPELINE: Include a proper color theme pallete here.  See coolors site.

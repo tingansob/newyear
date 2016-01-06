@@ -2,4 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $quoteTitle: rgb(71, 66, 0);
-p.quote-title {color:$quoteTitle;}
+
+p.quote-title {
+  font-family: Oswald;
+  font-size:2em;
+  font-weight: bold;
+  color: $darkbase;
+}
+p.quote-body {
+  font-family: "Oswald";
+  font-size:1.3em;
+  line-height: 1.4;
+}
+.p.quote-author {
+  font-family: "Oswald";
+  font-style:italic;
+  color: $darkbase;
+  font-size: .85em;
+}
+.quotes {
+  margin-left: 25px;
+  padding:20px;
+  border-left: 3px dashed $darkbase;
+}

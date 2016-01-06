@@ -1,0 +1,54 @@
+// TODO: let's see if THIS get's put in the todo list.
+.fancyBackground {
+  background: linear-gradient(270deg, #f7f6a8, #f3ed86, #f0cf65, #bead85, #e56500, $darkgold);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 18s ease infinite;
+  -moz-animation: AnimationName 18s ease infinite;
+  -o-animation: AnimationName 18s ease infinite;
+  animation: AnimationName 18s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+     0%{background-position:0% 60%}
+     50%{background-position:100% 41%}
+     100%{background-position:0% 60%}
+  }
+  @-moz-keyframes AnimationName {
+     0%{background-position:0% 60%}
+     50%{background-position:100% 41%}
+     100%{background-position:0% 60%}
+  }
+  @-o-keyframes AnimationName {
+     0%{background-position:0% 60%}
+     50%{background-position:100% 41%}
+     100%{background-position:0% 60%}
+  }
+  @keyframes AnimationName {
+     0%{background-position:0% 60%}
+     50%{background-position:100% 41%}
+     100%{background-position:0% 60%}
+  }
+}
+#pageTitle {
+  color: $darkgold;
+  font-family: "Luckiest Guy";
+}
+.Anton {font-family: "Anton";}
+.Oswald {font-family: "Oswald";}
+.Open {font-family: "Open Sans";}
+.OpenCondensed {font-family: "Open Sans Condensed";}
+.Montserrat {font-family: "Montserrat";}
+.Luckiest {font-family: "Luckiest Guy";}
+.Bangers {font-family: "Bangers";}
+
+.fontTest {
+  font-size: 1.5em;
+  color: $yellowish;
+  display: inline-block;
+}
+.fontTest p {
+  display: block;
+}
+.fontTest>p:hover {
+  color:$darkbase;
+}
