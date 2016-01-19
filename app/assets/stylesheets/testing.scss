@@ -1,6 +1,7 @@
 // TODO: let's see if THIS get's put in the todo list.
 .fancyBackground {
-  background: linear-gradient(270deg, #f7f6a8, #f3ed86, #f0cf65, #bead85, #e56500, $darkgold);
+  // background: linear-gradient(270deg, #f7f6a8, #f3ed86, #f0cf65, #bead85, #e56500, $darkgold);
+  background: linear-gradient(270deg, #cde6f5, #74c0ee, #8da7be, #578ebf);
   background-size: 1000% 1000%;
 
   -webkit-animation: AnimationName 18s ease infinite;
@@ -30,8 +31,22 @@
   }
 }
 #pageTitle {
-  color: $darkgold;
-  font-family: "Luckiest Guy";
+  color: $darkbase;
+  font-family: "Anton";
+}
+
+.fontTest {
+  font-size: 1.5em;
+  color: lighten($darkbase, 15%);
+  display: inline-block;
+  padding:15px;
+  border:1px solid $darkbase;
+  background: $darkgold;
+  margin-top:10px;
+}
+.fontTest p {
+  display: flex;
+  justify-content: center;
 }
 .Anton {font-family: "Anton";}
 .Oswald {font-family: "Oswald";}
@@ -40,15 +55,14 @@
 .Montserrat {font-family: "Montserrat";}
 .Luckiest {font-family: "Luckiest Guy";}
 .Bangers {font-family: "Bangers";}
-
-.fontTest {
-  font-size: 1.5em;
-  color: $yellowish;
-  display: inline-block;
-}
-.fontTest p {
-  display: block;
+.fontish {
+  line-height: 1.5;
 }
 .fontTest>p:hover {
   color:$darkbase;
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
 }
