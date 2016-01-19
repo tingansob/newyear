@@ -5,20 +5,23 @@ $yellowish: #F0CF65;
 $papershadow: #F3ED86;
 $baseshadow: #BEAD85;
 $highlight: #e56500;
+$baseblue: #578ebf;
+$mainfont: "Anton";
+$basefont: "Open Sans";
 
 
 body {
-  background-color: #578ebf;
-  font-family: 'Open Sans';
+  background-color: $baseblue;
+  font-family:  $basefont;
 }
 
 h1 h2 h3 h4 h5 h6 {
-  font-family: 'Montserrat';
+  font-family: $mainfont;
 }
 
 @media screen and (max-width: 400px) {
   body {
-    background-color: goldenrod;
+    background-color: darken($baseblue, 20%);
   }
 
   h1 {
@@ -29,7 +32,7 @@ h1 h2 h3 h4 h5 h6 {
   }
 
   footer >p {
-    color: $darkgold;
+    color: $darkbase;
   }
 }
 

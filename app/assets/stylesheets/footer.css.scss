@@ -7,9 +7,9 @@ footer>p {
 	font-family:"Open Sans Condensed";
 	font-style:italic;
 	font-weight:bold;
-	color: $darkgold;
+	color: $darkbase;
 }
 footer>p:hover {
-	color: $highlight; 
+	color: $highlight;
 }
 // PIPELINE: Content & Design decisions -- What does the footer really look like and what data does it contain?
